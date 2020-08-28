@@ -17,6 +17,11 @@ hr {
   opacity: 20%;
 }
 
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
 /* HEADER */
 
 .header__top {
@@ -82,7 +87,7 @@ hr {
   position: absolute;
   left: -23px;
   height: 15px;
-  border: 1px solid #ffffff;
+  border: 0.8px solid #ffffff;
   top: 18%;
 }
 
@@ -102,7 +107,6 @@ hr {
   justify-content: space-between;
   margin-right: 83px;
   padding: 0;
-  cursor: pointer;
 }
 .owl-carousel .owl-item img {
   width: auto;
@@ -155,10 +159,12 @@ hr {
 }
 /* CATEGORIES */
 
-.categories {
-  display: flex;
+.categories {  
   width: 1216px;
   margin: 0 auto;
+}
+.categories .item {
+  display: flex;
 }
 .arrow-left {
   transform: scale(-1, 1);
