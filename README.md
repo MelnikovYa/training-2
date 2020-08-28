@@ -1,3 +1,3 @@
 # training_2
 Стажировка. Верстка макета
-https://melnikovya.github.io/training-2/
+https://melnikovya.github.io/training_2/
